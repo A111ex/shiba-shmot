@@ -1,0 +1,22 @@
+.nav-item {
+    cursor: pointer;
+}
+
+#sidebarMenu .nav-item:hover {
+    background: rgb(226, 226, 226);
+}
+
+.documentation-header {
+    font-size: 18px;
+    color: #777;
+    margin: 40px 20px 16px;
+}
+
+.accordion-button {
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0 0 8px rgb(0 0 0 / 40%);
+}
