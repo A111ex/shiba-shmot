@@ -99,13 +99,13 @@
     <div id="logo">
       <?php if ($logo) { ?>
         <?php if ($home == $og_url) { ?>
-            <p id="left">Магазин кросовок, <br> спортивной одежды <br> и аксессуаров</p>
+            <p id="left">Магазин кросовок, <br> спортивной одежды <br> и аксессуаров.</p>
           <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" />
-          <p id="right">Для мужчин, <br> женщин, и детей.</p>
+          <p id="right">Для мужчин, <br> женщин и детей.</p>
         <?php } else { ?>
-            <p id="left">Магазин кросовок, <br> спортивной одежды <br> и аксессуаров</p>
+            <p id="left">Магазин кросовок, <br> спортивной одежды <br> и аксессуаров.</p>
           <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-          <p id="right">Для мужчин, <br> женщин, и детей.</p>
+          <p id="right">Для мужчин, <br> женщин и детей.</p>
         <?php } ?>
       <?php } else { ?>
         <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
